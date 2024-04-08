@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url('https://unsplash.com/photos/a-person-riding-a-wave-on-top-of-a-surfboard-69AQlAZNSJk');
+    background-size: cover;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+}
