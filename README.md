@@ -6,7 +6,7 @@
 
 * HTML
 
-* CSS (Bootstrap)
+* CSS
 
 ## Как открыть/запустить
 
