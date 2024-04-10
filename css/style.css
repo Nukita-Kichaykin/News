@@ -1,9 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(184, 182, 182);
+    background-image: url('https://businessplaces.net/images/links/1677570232.webp');
 }
-
 header {
     display: flex;
     align-items: center;
@@ -12,42 +11,73 @@ header {
     background-image: url('/image/Amursk_leto.jpg'); background-repeat: no-repeat;
     background-position: center; background-size: cover;
 }
-
 h1{
     color: rgb(245, 78, 18);
     font-size: 70px;
     font-family: fantasy; 
 }
-
 h2{
     padding-top: 15px;
     padding-bottom: 20px;
     text-align: center;
     font-family: fantasy; color: coral; font-size: 50px;
 }
-
 .new-info{
-     padding: 10px;
+     padding: 20px;
      border: solid;
-     border-radius: 8px;
-     background-color: rgb(132, 223, 223);
+     border-radius: 8px; border-width: 6px;
      margin: 55;
 }
 .sport-info{
-    padding: 10px;
+    padding: 20px;
     margin: 55px;
-    border: solid;
+    border: solid; border-width: 6px; 
     border-radius: 8px;
     background-image: url("https://plus.unsplash.com/premium_photo-1664300596185-696af4fcd352?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;  background-position: center; background-size: cover;
 }
-
+.job-text{
+    border: solid; border-radius: 8px; border-width: 6px;
+    padding: 20px;
+    margin: 55px; 
+    text-align: center;
+}
+.Polimetal-info{
+    padding: 20px;
+    border: solid;
+    border-radius: 8px; border-width: 6px;
+    margin: 55;
+    background-color: white; 
+}
+#flag{
+    margin: 40px;
+    border: double; border-radius: 15px; border-width: 6px; 
+    background-image: url('https://rst.vs-group.ru/upload/iblock/43d/zHVaajusv_etag_E4395E670946FDF2584B61396875FD3C409FAC3D.png');
+    background-repeat: no-repeat; background-position: center;background-size: cover;
+    display: flex; align-items: center; justify-content: center; height: 350; display:   
+}
+#foto-repear{
+    border: double; border-radius: 20px; border-width: 4px;
+    width: 350; height: 200;
+    margin: 15px;
+    display: inline-block; 
+}
+#sport-id{
+    color: rgb(248, 76, 8);
+}
+#danger{
+color: rgb(103, 236, 103);
+text-align: center;
+text-transform: uppercase;
+}
+div:nth-child(2n+2){
+    background-color: rgb(112, 137, 245);
+}
 p{
     font-size: 35px;
     font-family: 'Lucida Sans';
-    color: #413b38;
+    color: #160b16;
 }
-
 .links{
      text-align: center;
      text-transform: uppercase;
@@ -56,24 +86,15 @@ p{
 button{
     padding: 15px; 
     margin: 10px;
-    background-color: lightblue;
+    background-color: rgb(17, 16, 78);
     border-radius: 32px; 
 }
-
+#repear-text{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: fantasy; color: rgb(18, 224, 63); font-size: 50px;
+}
 a{
     color: coral; font-size: 20px; font-family: fantasy; 
 }
-
-.Polimetal-info{
-    padding: 10px;
-    border: solid;
-    border-radius: 8px;
-    margin: 55;
-    background-color: white;
-  
-}
-.text-company{
-
-}
-
-
