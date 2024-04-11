@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('https://businessplaces.net/images/links/1677570232.webp');
+    background-attachment: fixed;
 }
 header {
     display: flex;
@@ -22,39 +23,37 @@ h2{
     text-align: center;
     font-family: fantasy; color: coral; font-size: 50px;
 }
-.new-info{
-     padding: 20px;
-     border: solid;
-     border-radius: 8px; border-width: 6px;
-     margin: 55;
-}
-.sport-info{
+div{
     padding: 20px;
-    margin: 55px;
+    margin: 60px;
     border: solid; border-width: 6px; 
     border-radius: 8px;
+}
+.new-info{
+    
+}
+.sport-info{
     background-image: url("https://plus.unsplash.com/premium_photo-1664300596185-696af4fcd352?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;  background-position: center; background-size: cover;
 }
-.job-text{
-    border: solid; border-radius: 8px; border-width: 6px;
-    padding: 20px;
-    margin: 55px; 
-    text-align: center;
+.warning-text{
+    text-transform: uppercase;
+    color: red;
 }
 .Polimetal-info{
-    padding: 20px;
-    border: solid;
-    border-radius: 8px; border-width: 6px;
-    margin: 55;
     background-color: white; 
+}
+.sad-text{
+    background-color: rgb(200, 238, 162);
+    align-content: center;
+    
 }
 #flag{
     margin: 40px;
     border: double; border-radius: 15px; border-width: 6px; 
     background-image: url('https://rst.vs-group.ru/upload/iblock/43d/zHVaajusv_etag_E4395E670946FDF2584B61396875FD3C409FAC3D.png');
     background-repeat: no-repeat; background-position: center;background-size: cover;
-    display: flex; align-items: center; justify-content: center; height: 350; display:   
+    display: flex; align-items: center; justify-content: center; height: 350; 
 }
 #foto-repear{
     border: double; border-radius: 20px; border-width: 4px;
@@ -82,6 +81,7 @@ p{
      text-align: center;
      text-transform: uppercase;
      font-size: 30px;
+     border: none;
 }
 button{
     padding: 15px; 
@@ -97,4 +97,49 @@ button{
 }
 a{
     color: coral; font-size: 20px; font-family: fantasy; 
+}
+.about-text-footer{
+    background-color: rgb(190, 245, 245);
+}  
+li{
+    text-transform: uppercase;
+    color: rgb(2, 2, 107);
+}
+#pages-center{
+    width: 70px;
+    height: 30px;
+}
+#creater{
+    text-transform: uppercase;
+}
+.address-text{
+    background-color: aliceblue;
+    text-align: center;
+}
+.img-increase{
+    width: 300;
+    height: 250;
+    margin: 15px;
+    background-color: lime;
+}
+.img-increase img {
+    transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    align-content: center;
+    }
+    .img-increase img:hover{
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    }
+.public-name{
+    color: rgb(155, 59, 158);
+    
+    
+}
+footer{
+margin: 25px;
 }
