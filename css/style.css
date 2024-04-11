@@ -21,7 +21,7 @@ h2{
     padding-top: 15px;
     padding-bottom: 20px;
     text-align: center;
-    font-family: fantasy; color: coral; font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: coral; font-size: 50px;
 }
 div{
     padding: 20px;
@@ -30,6 +30,7 @@ div{
     border-radius: 8px;
 }
 .new-info{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     
 }
 .sport-info{
@@ -136,10 +137,16 @@ li{
     -o-transform: scale(2);
     }
 .public-name{
-    color: rgb(155, 59, 158);
-    
-    
+    color: rgb(155, 59, 158);   
 }
 footer{
 margin: 25px;
+}
+#name-sport::after{
+    content: " NEW";
+    color: red;    
+}
+#flag::after {
+    content: " NEW";
+    color: red;
 }
