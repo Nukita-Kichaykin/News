@@ -73,7 +73,7 @@ text-align: center;
 text-transform: uppercase;
 }
 div:nth-child(2n+2){
-    background-color: rgb(112, 137, 245);
+    background-color: rgb(112, 137, 245); /*Доп.задание ИЗМЕНЕНИЕ ФОНА У ЧЕТНЫХ НОВОСТЕЙ*/
 }
 p{
     font-size: 35px;
@@ -144,11 +144,11 @@ li{
 footer{
 margin: 25px;
 }
-#name-sport::after{
+#name-sport::after{  /*Доп.задание добавить к заголовкам пeрвых 2х новостей слово "New"*/
     content: " NEW";
     color: red;    
 }
-#flag::after { 
+#flag::after {  /*Доп.задание добавить к заголовкам пeрвых 2х новостей слово "New"*/
     content: " NEW";
     color: red;
 } /* Много что получается далеко не с первого раза 
