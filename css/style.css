@@ -17,23 +17,25 @@ h1{
     font-size: 70px;
     font-family: fantasy; 
 }
-h2{
+h2{   /* Параметры которые часто повторяются для поддержания стиля , объединил в блок
+    Что бы не приминять их постоянно !*/
     padding-top: 15px;
     padding-bottom: 20px;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: coral; font-size: 50px;
 }
-div{
+div{   /* Параметры которые часто повторяются для поддержания стиля , объединил в блок*/
     padding: 20px;
-    margin: 60px;
+    margin: 70px;
     border: solid; border-width: 6px; 
     border-radius: 8px;
 }
-.new-info{
+.new-info{  /* Стало ясно что этот пункт мне ненужен на середине пути!
+    Оставил строку, жаль удалять))*/
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     
 }
-.sport-info{
+.sport-info{ /* Все запомнить сразу не выходит , были затруднительные пункты например выравнивание картинок относительно текста!*/
     background-image: url("https://plus.unsplash.com/premium_photo-1664300596185-696af4fcd352?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;  background-position: center; background-size: cover;
 }
@@ -117,13 +119,13 @@ li{
     background-color: aliceblue;
     text-align: center;
 }
-.img-increase{
+.img-increase{   /* Пробуем создать всплывающие окно под курсором*/
     width: 300;
     height: 250;
     margin: 15px;
     background-color: lime;
 }
-.img-increase img {
+.img-increase img {   /* Пробуем создать всплывающие окно под курсором*/
     transition: all 1s ease-out;
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
@@ -146,7 +148,12 @@ margin: 25px;
     content: " NEW";
     color: red;    
 }
-#flag::after {
+#flag::after { 
     content: " NEW";
     color: red;
-}
+} /* Много что получается далеко не с первого раза 
+После того как создовал новость за новостью,
+понимал что проще все стереть и написать сайт заного так как узнал что то новое ! 
+Но это бесконечный процесс, надеюсь моя работа вас удовлетварит!
+Сам же я понимаю что уже можно и лучше сделать.
+*/
